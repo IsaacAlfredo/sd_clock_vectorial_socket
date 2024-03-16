@@ -1,0 +1,13 @@
+Alunos: Isaac Alfredo de Freitas Silva e Emilly Regina Ferreira Duarte
+
+Para a solução, utilizamos a linguagem Python e as bibliotecas: socket, pickle, time, threading e random. Certifique-se de tê-las instaladas para conseguir executar o algoritmo 
+(no entanto, acredito que todas são nativas do python).
+
+Basta executar o arquivo Vector.py no terminal; 
+O código está todo comentado com onde exatamente satisfazemos os requisitos de teste e validação, com numeração de acordo ao indicado no AVA;
+Também deixamos duas soluções (observe o final do código):
+1- Os processos podem enviar mensagens pra qualquer outro processo, até eles mesmos;
+2- Os processos podem enviar mensagens para todos os outros processos, exceto ele mesmo;
+
+Embora intuitivamente eu acredite que não faz muito sentido um processo mandar uma mensagem para si mesmo, fiquei na dúvida quanto a isso, então deixei as duas soluções.
+Quando executar o código, a solução apresentada será a 1. Caso queira ver a segunda, basta comentar o código da #primeira solução e descomentar o código da #segunda solução.
